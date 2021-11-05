@@ -148,7 +148,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   void setPolylines() async {
     PolylineResult result = await polylinePoints.getRouteBetweenCoordinates(
-        "AIzaSyCMEnma_Jh8TTcosrFKvc5migjE8lhFk5I",
+        "API_KEY",
         PointLatLng(currentLocation.latitude, currentLocation.longitude),
         PointLatLng(
             destinationLocation.latitude, destinationLocation.longitude));
